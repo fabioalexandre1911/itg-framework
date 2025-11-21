@@ -1,0 +1,32 @@
+.sfwp-footer {
+  background: var(--colorBackground);
+  border-bottom: 2px solid var(--colorMain);
+  &__contents {
+    text-align: center;
+  }
+  &__navigation,
+  &__social {
+    margin-bottom: var(--spacingMarginSmall);
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      li {
+        &:not(:last-of-type) {
+          margin-right: var(--spacingMarginSmall);
+        }
+        a {
+          color: var(--colorText);
+          font-size: var(--fontSizeSmall);
+          &:hover {
+            color: var(--colorMain);
+          }
+        }
+      }
+    }
+  }
+  &__copyright {
+    color: var(--colorWhite);
+    font-size: var(--fontSizeSmall);
+  }
+}

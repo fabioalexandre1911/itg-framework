@@ -1,0 +1,9 @@
+# folders
+/build
+/node_modules
+.vscode
+
+# files
+*.log
+*.lock
+.DS_Store

@@ -1,0 +1,23 @@
+.sfwp-blog {
+  &__item {
+    &-thumbnail {
+      margin-bottom: var(--spacingMarginSmall);
+      img {
+        width: 100%;
+      }
+    }
+    &-title {
+      font-size: var(--fontSizeHeadingFive);
+      margin-bottom: var(--spacingMarginSmall);
+      a {
+        color: var(--colorSupport);
+      }
+    }
+    &-excerpt {
+      color: var(--colorSupport);
+      p {
+        font-size: var(--fontSizeSmall);
+      }
+    }
+  }
+}

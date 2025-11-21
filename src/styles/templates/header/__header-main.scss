@@ -1,0 +1,74 @@
+.sfwp-header {
+  > div {
+    position: relative;
+  }
+  &__logo {
+    h3 {
+      font-size: var(--fontSizeHeadingSix);
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--colorSupport);
+    }
+  }
+  &__navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      > li {
+        &:not(:last-of-type) {
+          margin-right: var(--spacingMargin);
+        }
+        a {
+          color: var(--colorSupport);
+        }
+      }
+    }
+  }
+
+  &__search {
+    margin-left: var(--spacingMargin);
+    cursor: pointer;
+    background: none;
+  }
+
+  &__searchform {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--colorBackground);
+    padding: var(--spacingPadding);
+    width: 300px;
+    display: none;
+    form {
+      width: 100%;
+      label {
+        display: block;
+        span {
+        }
+        .search-field {
+          width: 100%;
+          padding: var(--spacingPaddingSmall);
+          font-family: var(--fontMain);
+        }
+      }
+      .search-submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: var(--colorMain);
+        color: var(--colorWhite);
+        margin-top: var(--spacingMarginSmall);
+        padding: var(--spacingPaddingSmall);
+        cursor: pointer;
+        font-weight: 800;
+        font-family: var(--fontMain);
+        text-transform: uppercase;
+      }
+    }
+  }
+}

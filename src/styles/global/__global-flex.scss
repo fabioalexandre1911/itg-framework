@@ -1,0 +1,33 @@
+.sfwp-flex {
+  display: flex;
+
+  &--justify {
+    &__between {
+      justify-content: space-between;
+    }
+    &__around {
+      justify-content: space-around;
+    }
+  }
+
+  &--align {
+    &__center {
+      align-items: center;
+    }
+  }
+
+  &--direction {
+    &__row {
+      flex-direction: row;
+    }
+    &__row-reverse {
+      flex-direction: row-reverse;
+    }
+    &__column {
+      flex-direction: column;
+    }
+    &__column-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+body {
+  font-size: var(--fontSizeParagraph);
+  font-family: var(--fontMain);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontHeading);
+}
+
+h1 {
+  font-size: var(--fontSizeHeadingOne);
+}
+
+h2 {
+  font-size: var(--fontSizeHeadingTwo);
+}
+
+h3 {
+  font-size: var(--fontSizeHeadingThree);
+}
+
+h4 {
+  font-size: var(--fontSizeHeadingFour);
+}
+
+h5 {
+  font-size: var(--fontSizeHeadingFive);
+}
+
+h6 {
+  font-size: var(--fontSizeHeadingSix);
+}
+
+p {
+  font-size: var(--fontSizeParagraph);
+  line-height: 1.5;
+}

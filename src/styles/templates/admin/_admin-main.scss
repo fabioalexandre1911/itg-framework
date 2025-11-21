@@ -1,0 +1,98 @@
+.toplevel_page_sfwp {
+  #wpcontent {
+    padding: 0;
+  }
+}
+
+.sfwp-admin-header {
+  width: 100%;
+  background: var(--colorBlue);
+  padding: var(--spacingPadding) 0;
+  border-bottom: 4px solid var(--colorRed);
+  &__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: var(--colorWhite);
+  }
+}
+
+.sfwp-admin-tabs {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacingPadding) 0;
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-item {
+      background: var(--colorGray);
+      color: var(--colorWhite);
+      cursor: pointer;
+      padding: var(--spacingPaddingSmall) var(--spacingPadding);
+      border-radius: 5px;
+      font-size: var(--fontSizeSmall);
+      font-weight: 800;
+      text-transform: uppercase;
+      &.active {
+        background: var(--colorRed);
+      }
+      &:not(:last-of-type) {
+        margin-right: var(--spacingMargin);
+      }
+    }
+  }
+}
+
+.sfwp-admin-content {
+  background: var(--colorWhite);
+  padding: var(--spacingPadding);
+  &__tabs {
+    &-item {
+      display: none;
+      &.active{
+        display: block;
+      }
+    }
+  }
+  form {
+    table {
+      tr {
+        background: var(--colorWhite);
+        th {
+          background: var(--colorBlack);
+          color: var(--colorWhite);
+          padding-left: 10px;
+          vertical-align: middle;
+          font-family: var(--fontMain);
+          font-size: var(--fontSizeSmall);
+        }
+        td {
+          background: #f2f2f2;
+          input {
+            width: 80%;
+            padding: 10px;
+            font-family: var(--fontMain);
+          }
+        }
+      }
+    }
+    .submit {
+      .button-primary {
+        width: 400px;
+        height: 50px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        background: var(--colorBlue);
+        transition: all ease-in-out 0.3s;
+        border: 0;
+        font-family: var(--fontMain);
+        font-size: var(--fontSizeParagraph);
+        &:hover {
+          background: var(--colorRed);
+        }
+      }
+    }
+  }
+}

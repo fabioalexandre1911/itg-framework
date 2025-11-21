@@ -1,0 +1,15 @@
+.sfwp-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+
+  &__item {
+    margin: 0 10px 20px;
+    @for $i from 1 through 100 {
+      &-#{$i} {
+        width: #{$i} + "%";
+      }
+    }
+  }
+}

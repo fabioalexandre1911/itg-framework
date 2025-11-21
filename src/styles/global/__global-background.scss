@@ -1,0 +1,8 @@
+.sfwp-background {
+  &__white {
+    background: var(--colorWhite);
+  }
+  &__dark {
+    background: var(--colorBackground);
+  }
+}

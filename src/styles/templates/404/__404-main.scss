@@ -1,0 +1,24 @@
+.sfwp-404 {
+  min-height: 70vh;
+  background: var(--colorWhite);
+
+  &__title {
+    display: block;
+    font-size: var(--fontSizeHeadingOne);
+    color: var(--colorSupport);
+    font-weight: 300;
+  }
+
+  &__heading {
+    font-size: var(--fontSizeHeadingFour);
+    font-weight: 300;
+    color: var(--colorSupport);
+    margin-bottom: var(--spacingMarginSmall);
+  }
+
+  &__link{
+    color: var(--colorMain);
+    font-size: var(--fontSizeParagraph);
+    font-weight: 900;
+  }
+}

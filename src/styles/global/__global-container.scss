@@ -1,0 +1,11 @@
+.sfwp-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__center {
+    width: var(--viewportContainer);
+    padding: var(--spacingPadding) 0;
+  }
+}

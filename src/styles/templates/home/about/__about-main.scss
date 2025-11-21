@@ -1,0 +1,14 @@
+.sfwp-about {
+  &__text {
+    &-subtitle {
+      margin-bottom: var(--spacingMargin);
+      font-size: var(--fontSizeHeadingSix);
+      font-weight: 400;
+    }
+    &-paragrahp {
+      &:not(:last-of-type) {
+        margin-bottom: var(--spacingMargin);
+      }
+    }
+  }
+}

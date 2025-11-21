@@ -1,0 +1,43 @@
+:root {
+  /** colors **/
+  --colorMain: #f56565;
+  --colorSupport: #4a5568;
+  --colorText: #fafafa;
+  --colorBackground: #1a202c;
+
+  --colorBlue: #4299e1;
+  --colorGreen: #68d391;
+  --colorRed: #e53e3e;
+  --colorOrange: #f6ad55;
+  --colorPurple: #9f7aea;
+  --colorGray: #718096;
+  --colorBlack: #202122;
+  --colorWhite: #fafafa;
+
+  /** typography **/
+  --fontMain: "Roboto", sans-serif;
+  --fontHeading: "Montserrat", sans-serif;
+
+  --fontSizeHeadingOne: 4rem;
+  --fontSizeHeadingTwo: 3.2rem;
+  --fontSizeHeadingThree: 2.8rem;
+  --fontSizeHeadingFour: 2.4rem;
+  --fontSizeHeadingFive: 2rem;
+  --fontSizeHeadingSix: 1.6rem;
+  --fontSizeParagraph: 1.2rem;
+  --fontSizeSmall: 0.9rem;
+
+  /** spacing **/
+  --spacingMarginSmall: 1rem;
+  --spacingMargin: 2rem;
+  --spacingMarginLarge: 4rem;
+
+  --spacingPaddingSmall: 1rem;
+  --spacingPadding: 2rem;
+  --spacingPaddingLarge: 4rem;
+
+  /** viewport **/
+  --viewportContainer: 90%;
+
+  /** others **/
+}
